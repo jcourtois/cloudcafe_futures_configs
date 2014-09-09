@@ -1,0 +1,63 @@
+------------
+REQUEST SENT
+------------
+request method..: DELETE
+request url.....: http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae
+request params..: 
+request headers.: {'Content-Length': '0', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.4.0 CPython/2.7.5 Darwin/13.3.0', 'Connection': 'keep-alive', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8', 'Content-Type': 'application/json'}
+request body....: None
+
+2014-09-07 22:15:08,840: DEBUG: cafe.engine.http.client: 
+-----------------
+RESPONSE RECEIVED
+-----------------
+response status..: <Response [202]>
+response time....: 0.295524120331
+response headers.: {'date': 'Mon, 08 Sep 2014 03:15:09 GMT', 'connection': 'keep-alive', 'content-type': 'text/html; charset=UTF-8', 'content-length': '0', 'x-openstack-request-id': 'req-1f03d63b-494f-40a0-aff8-aa100d133034'}
+response body....: 
+-------------------------------------------------------------------------------
+2014-09-07 22:15:08,841: DEBUG: cafe.engine.http.client: (<cloudcafe.blockstorage.volumes_api.v1.client.VolumesClient object at 0x107b0f790>, 'GET', 'http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8'}, 'params': {}, 'verify': False, 'data': None}
+2014-09-07 22:15:08,843: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): 10.17.255.180
+2014-09-07 22:15:09,213: DEBUG: requests.packages.urllib3.connectionpool: "GET /v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae HTTP/1.1" 200 442
+2014-09-07 22:15:09,214: DEBUG: cafe.engine.http.client: 
+------------
+REQUEST SENT
+------------
+request method..: GET
+request url.....: http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae
+request params..: 
+request headers.: {'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.4.0 CPython/2.7.5 Darwin/13.3.0', 'Connection': 'keep-alive', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8', 'Content-Type': 'application/json'}
+request body....: None
+
+2014-09-07 22:15:09,215: DEBUG: cafe.engine.http.client: 
+-----------------
+RESPONSE RECEIVED
+-----------------
+response status..: <Response [200]>
+response time....: 0.373455047607
+response headers.: {'content-length': '442', 'x-compute-request-id': 'req-81a9bfde-a8ea-4a63-bea9-55f8876bf4f9', 'connection': 'keep-alive', 'date': 'Mon, 08 Sep 2014 03:15:09 GMT', 'content-type': 'application/json', 'x-openstack-request-id': 'req-81a9bfde-a8ea-4a63-bea9-55f8876bf4f9'}
+response body....: {"volume": {"status": "deleting", "display_name": "Volume_Auf4KB8glG", "attachments": [], "availability_zone": "nova", "bootable": "false", "encrypted": false, "created_at": "2014-09-08T03:13:25.000000", "os-vol-tenant-attr:tenant_id": "9635701dc6cd4883823e27993c28ae35", "display_description": null, "volume_type": "qe_lvm", "snapshot_id": null, "source_volid": null, "metadata": {}, "id": "bfa4e9d7-e520-451d-bc90-04052f18c9ae", "size": 1}}
+-------------------------------------------------------------------------------
+2014-09-07 22:15:29,214: DEBUG: cafe.engine.http.client: (<cloudcafe.blockstorage.volumes_api.v1.client.VolumesClient object at 0x107b0f790>, 'GET', 'http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8'}, 'params': {}, 'verify': False, 'data': None}
+2014-09-07 22:15:29,217: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): 10.17.255.180
+2014-09-07 22:15:29,498: DEBUG: requests.packages.urllib3.connectionpool: "GET /v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae HTTP/1.1" 200 442
+2014-09-07 22:15:29,499: DEBUG: cafe.engine.http.client: 
+------------
+REQUEST SENT
+------------
+request method..: GET
+request url.....: http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae
+request params..: 
+request headers.: {'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.4.0 CPython/2.7.5 Darwin/13.3.0', 'Connection': 'keep-alive', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8', 'Content-Type': 'application/json'}
+request body....: None
+
+2014-09-07 22:15:29,499: DEBUG: cafe.engine.http.client: 
+-----------------
+RESPONSE RECEIVED
+-----------------
+response status..: <Response [200]>
+response time....: 0.284315109253
+response headers.: {'content-length': '442', 'x-compute-request-id': 'req-b9ce0f97-f80d-40fb-9927-14c4848af828', 'connection': 'keep-alive', 'date': 'Mon, 08 Sep 2014 03:15:30 GMT', 'content-type': 'application/json', 'x-openstack-request-id': 'req-b9ce0f97-f80d-40fb-9927-14c4848af828'}
+response body....: {"volume": {"status": "deleting", "display_name": "Volume_Auf4KB8glG", "attachments": [], "availability_zone": "nova", "bootable": "false", "encrypted": false, "created_at": "2014-09-08T03:13:25.000000", "os-vol-tenant-attr:tenant_id": "9635701dc6cd4883823e27993c28ae35", "display_description": null, "volume_type": "qe_lvm", "snapshot_id": null, "source_volid": null, "metadata": {}, "id": "bfa4e9d7-e520-451d-bc90-04052f18c9ae", "size": 1}}
+-------------------------------------------------------------------------------
+2014-09-07 22:15:49,500: DEBUG: cafe.engine.http.client: (<cloudcafe.blockstorage.volumes_api.v1.client.VolumesClient object at 0x107b0f790>, 'GET', 'http://10.17.255.180:8776/v1/9635701dc6cd4883823e27993c28ae35/volumes/bfa4e9d7-e520-451d-bc90-04052f18c9ae') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json', 'X-Auth-Token': u'08a35f2c8ebe4f28902f749c144ce3e8'}, 'params': {}, 'verify': False, 'data': None}
